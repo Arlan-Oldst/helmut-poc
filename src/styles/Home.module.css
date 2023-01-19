@@ -4,7 +4,56 @@
   justify-content: space-between;
   align-items: center;
   padding: 6rem;
-  min-height: 100vh;
+  height: 100vh;
+  background: #e0e0e0;
+}
+
+.canvas {
+  background: #FFFFFF;
+  height: 80vh;
+  width: 100%;
+  overflow: auto;
+}
+
+.controls {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 50%;
+}
+
+.button {
+  border-radius: 15px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #0965bb;
+  height: 50px;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.dialog {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 50vh;
+  width: 75vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: #FFFFFF;
+}
+
+.unitID {
+  color: #000000;
 }
 
 .description {
